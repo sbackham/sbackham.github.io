@@ -8,29 +8,44 @@
 - name: Git
   weight: 5
 
-- name: Bash
-  weight: 3
-
-- name: Scrum
-  weight: 3
-
-- name: Travis CI
-  weight: 1
-
-- name: Jenkins
-  weight: 1
-
-- name: Chrome DevTools
-  weight: 2
-
-- name: npm
-  weight: 2
-
-- name: gulp
+- name: Multithreading
   weight: 4
 
-- name: VS Code
+- name: Object-Oriented Programming
+  weight: 5
+
+- name: TCP/IP/UDP
+  weight: 4
+
+- name: Lambdas
   weight: 3
 
-- name: Postman
+- name: SQL
+  weight: 5
+
+- name: Relational Databases
   weight: 4
+
+- name: Unit Testing
+  weight: 5
+
+- name: Jupyter Notebooks
+  weight: 4
+
+- name: MS Excel
+  weight: 3
+
+- name: MQTT
+  weight: 3
+
+- name: Firebase
+  weight: 4
+
+- name: Figma
+  weight: 3
+
+- name: Windows
+  weight: 4
+
+- name: Linux (Debian)
+  weight: 5
