@@ -6,15 +6,27 @@ on:
       - master  # Set this to your default branch
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Build and deploy to GitHub Pages
-      uses: helaili/jekyll-action@2.2.0
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        target_branch: 'gh-pages'  # The branch the built site will be pushed to
-        build_directory: '_site'  # The directory Jekyll will build to; default is _site
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '2.7'  # Use the Ruby version that matches the GitHub Pages environment
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build the site
+        run: bundle exec jekyll build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site  # The output directory of your Jekyll build
