@@ -1,0 +1,20 @@
+name: Build and deploy Jekyll site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master  # Set this to your default branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Build and deploy to GitHub Pages
+      uses: helaili/jekyll-action@2.2.0
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        target_branch: 'gh-pages'  # The branch the built site will be pushed to
+        build_directory: '_site'  # The directory Jekyll will build to; default is _site

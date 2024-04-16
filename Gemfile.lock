@@ -273,8 +273,8 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   github-pages
-  jekyll
-  jekyll-github-metadata
+  jekyll (~> 3.9)
+  jekyll-github-metadata (~> 2.16)
   webrick
 
 BUNDLED WITH
