@@ -31,4 +31,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site  # The output directory of your Jekyll build
-          target_branch: gh-pages  # The branch the built site will be pushed to
+          publish_branch: gh-pages  # The branch the built site will be pushed to; adjust if using a different name
+
