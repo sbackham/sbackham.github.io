@@ -1,13 +1,10 @@
 ### VALUES YOU SHOULD CHANGE ###
 
 # GENERAL SITE SETTINGS
-# title: This will be displayed as the website's name in your browser tab.
 title: Sirena's Portfolio
-# description: This will be meta HTML tag content. This can be ignored.
 description: Personal website powered by Jekyll
-# baseurl: The subpath of your site
-# > set this to "", if you renamed the repository to <user>.github.io
 baseurl: "/portfolio"
+
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
@@ -31,7 +28,14 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description:  I am Sirena Backham, a computer science and engineering student at the University of Iowa, specializing in Big Data and set to graduate in May 2024. My technical experience spans a broad range of programming languages including Java, Python, C++, and web technologies such as React, Node.js, and Django. I am deeply engaged in utilizing machine learning frameworks like PyTorch and TensorFlow to solve real-world problems. I'm leading the development of an IoT-enhanced surveillance system for my senior capstone project, which integrates real-time recognition and machine learning algorithms for enhanced security monitoring. Complementing my technical and professional endeavors, my GitHub portfolio (sbackham) showcases a range of projects from AI-assisted music generation applications to advanced web-enabled IoT systems, showing my passion for continuous learning and application of broad technologies.
+about_me_description: |
+  Hello! I'm Sirena, a Computer Science and Engineering (CSE) student at the University of Iowa, with a focus area in Big Data/Machine Learning and set to graduate in May 2024.
+  My technical experience spans a broad range of programming languages including Java, Python, C++, and web technologies such as React, Node.js, and Django.
+  I am interested in utilizing machine learning frameworks like PyTorch and TensorFlow to solve real-world problems.
+  Currently, I'm leading the development of an IoT-enhanced surveillance system for my senior capstone project, which integrates real-time recognition and machine learning algorithms for enhanced security monitoring.
+  My GitHub portfolio (sbackham) showcases a range of projects from AI-assisted music generation applications to advanced web-enabled IoT systems, showing my passion for continuous learning and application of broad technologies.
+  See those below in my projects section.
+  Thanks for reading!
 
 
 # SKILLS SECTIONs
@@ -64,7 +68,7 @@ projects_title: Projects
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
-show_os_projects: true
+show_os_projects: false
 # os_projects_title: The will be displayed as the title of your open source projects
 os_projects_title: Open Source Projects
 
@@ -80,7 +84,8 @@ contact_description: Feel free to contact me at any of my links below!
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: longpdo/neumorphism
+
+repository: sbackham
 projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
@@ -94,7 +99,7 @@ projects:
     # forks:
     # > setting this to true, will exclude forked repositories
     # > setting this to false, will also display forked repositories
-    forks: true
+    forks: false
     # projects: A list of the repository names you want to exclude from the listing.
     projects:
     # - repo1-to-be-excluded
