@@ -16,7 +16,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'  # Matches the GitHub Pages environment
+          ruby-version: '3.0'  # Matches the GitHub Pages environment
 
       - name: Install dependencies
         run: |
@@ -31,4 +31,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site  # The output directory of your Jekyll build
-          target_branch: gh-pages  # The branch the built site will be pushed to
+          publish_branch: gh-pages  # The branch the built site will be pushed to; adjust if using a different name
+
