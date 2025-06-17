@@ -1,39 +1,20 @@
-# > name: Name of your framework
-# > weight: Describes how good you know the framework - values from 1 up to 5
-#
-# Example of a framework
-# - name: Framework
-#   weight: 5
-
-- name: PyTorch
+- name: Angular (v15–19)
   weight: 5
-
-- name: Tensorflow
-  weight: 3
 
 - name: React
-  weight: 5
+  weight: 4
 
-- name: Node
-  weight: 5
-
-- name: Flask
-  weight: 3
+- name: .NET
+  weight: 4
 
 - name: Express
-  weight: 5
-
-- name: Django
   weight: 4
 
-- name: Scikit-learn
+- name: Node.js
+  weight: 4
+
+- name: PyTorch
   weight: 3
 
-- name: Matplotlib
-  weight: 4
-
-- name: NumPy
-  weight: 4
-
-- name: NumPy
-  weight: 4
+- name: TensorFlow
+  weight: 3

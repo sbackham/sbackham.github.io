@@ -11,7 +11,7 @@ url: "https://sbackham.github.io/"
 username: Sirena Backham
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: A Fullstack Developer with interests in IoTs, ML, and AI Applications
+typing_text: A passionate full-stack developer with a strong focus on front end dev and AI/ML applications
 # email: Your E-Mail address for the email button.
 email: sirena.backham@gmail.com
 # For every social button you want to display, set your username or userid
@@ -29,13 +29,13 @@ show_aboutme_card: true
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
 about_me_description: |
-  Hello! I'm Sirena, a Computer Science and Engineering (CSE) student at the University of Iowa, with a focus area in Big Data/Machine Learning and set to graduate in May 2024.
-  My technical experience spans a broad range of programming languages including Java, Python, C++, and web technologies such as React, Node.js, and Django.
-  I am interested in utilizing machine learning frameworks like PyTorch and TensorFlow to solve real-world problems.
-  Currently, I'm leading the development of an IoT-enhanced surveillance system for my senior capstone project, which integrates real-time recognition and machine learning algorithms for enhanced security monitoring.
-  My GitHub portfolio (sbackham) showcases a range of projects from AI-assisted music generation applications to advanced web-enabled IoT systems, showing my passion for continuous learning and application of broad technologies.
-  See those below in my projects section.
-  Thanks for reading!
+  I'm a full stack developer with a strong focus on front-end engineering, passionate about building intuitive, user-centered web applications. I earned my degree in Computer Science and Engineering from the University of Iowa, where I concentrated in Big Data and Machine Learning.
+
+  Professionally, I’ve worked on enterprise-scale applications using Angular (v15–19), .NET, and SQL, building tools and features for internal teams in the logistics industry. I enjoy developing clean, responsive UIs while also diving into backend development when needed. My experience includes building RESTful APIs, improving application performance with Docker, and integrating third-party services like Google Maps and AWS Bedrock for AI-enhanced features.
+
+  I’m comfortable working across the stack with technologies like TypeScript, Python, Express, Node.js, Firebase, and multithreaded systems. I also regularly use tools like GitHub, Docker, Figma, and CI/CD pipelines to collaborate and ship code efficiently.
+
+  Outside of tech, I enjoy gaming, cooking, traveling, scenic hikes, arts and crafts, and relaxing at home with my cat. Thanks for reading!
 
 
 # SKILLS SECTIONs

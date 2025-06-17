@@ -52,3 +52,16 @@
   timeline-side: right
   description: Excelled as a professional pet caretaker and sitter, earning a flawless 5-star rating from over 10 clients for exemplary pet care services.
 
+- title: VeriTread
+  title-url: https://www.veritread.com/
+  date: July 2024 – Present
+  subtitle: Front-End Software Engineer
+  timeline-side: left
+  description: Led development on full-stack Angular (.v15–19) and .NET applications for heavy haul logistics. Upgraded multiple Angular apps across major versions, built internal tools including CSV converters and Google Maps API integrations, and contributed to production support and performance improvements using Docker. Collaborated closely with support and enterprise teams to deliver efficient, user-centered software solutions.
+  tags:
+    - Angular
+    - .NET
+    - TypeScript
+    - Docker
+    - RESTful API
+    - Frontend
